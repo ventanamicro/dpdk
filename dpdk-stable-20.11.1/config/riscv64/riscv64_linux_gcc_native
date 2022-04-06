@@ -1,0 +1,17 @@
+[binaries]
+c = 'gcc'
+cpp = 'cpp'
+ar = 'gcc-ar'
+strip = 'strip'
+pkgconfig = 'pkg-config'
+pcap-config = 'pcap-config'
+
+[host_machine]
+system = 'linux'
+cpu_family = 'riscv64'
+cpu = 'riscv64'
+endian = 'little'
+
+[properties]
+implementor_id = 'generic'
+implementor_pn = 'default'

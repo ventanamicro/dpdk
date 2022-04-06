@@ -1,0 +1,17 @@
+[binaries]
+c = 'riscv64-unknown-linux-gnu-gcc'
+cpp = 'riscv64-unknown-linux-gnu-cpp'
+ar = 'riscv64-unknown-linux-gnu-gcc-ar'
+strip = 'riscv64-unknown-linux-gnu-strip'
+pkgconfig = ''
+pcap-config = ''
+
+[host_machine]
+system = 'linux'
+cpu_family = 'riscv64'
+cpu = 'riscv64'
+endian = 'little'
+
+[properties]
+implementor_id = 'generic'
+implementor_pn = 'default'
